@@ -1,0 +1,109 @@
+body{
+    background-color:black;
+}
+
+
+#problem-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#problem-table td, #problem-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#problem-table tr td{
+    color: white;
+}
+
+#problem-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: tomato;
+    color:white;
+}
+#addproblem{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: tomato;
+    border-radius: 0px;
+    border: solid 2px white;
+    width: auto;
+    height: auto;
+    outline: none;
+}
+
+#submitproblemdata{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: tomato;
+    color: white;
+    border-radius: 0px;
+    border: solid 2px white;
+    width: auto;
+    height: auto;
+    outline: none;
+    cursor: pointer;
+}
+.button {
+    
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 70%;
+
+}
+a{
+    text-decoration: tomato;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: white;
+}
+.enter{
+    background-color: #008CBA;
+}
+.working{
+    background-color: #FFC300;
+}
+.complete{
+    background-color: #4CAF50;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}

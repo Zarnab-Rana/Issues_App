@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Users</title>
+    <link rel="stylesheet" type="text/css" href="css/updateuserstyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/Update_script.js"></script>
+
+
+
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+<body>
+<h1 style="margin-top: 5%;text-align: center;font-family: Cinzel;color: white;">Users Information</h1>
+<ul class="breadcrumb"style="margin-top: 5%;margin-bottom: 2%;">
+    <li><a href="http://localhost:8080/">Home</a></li>
+    <li><a href="http://localhost:8080/Information-page.html">Information</a></li>
+    <li><a href="http://localhost:8080/Users.html">Users</a></li>
+    <li>Update Users</li>
+</ul>
+<table id="updatetable">
+    <thead>
+    <tr>
+        <th>User Id</th>
+        <th>User Name</th>
+        <th>Problems</th>
+        <th>Update</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+
+
+</table>
+<div id="ex1" class="modal">
+
+
+    <fieldset>
+
+        <input type="text" name="action" id="action" value="submit" hidden="">
+        User Name:<br>
+        <input type="text" name="fname" id="fname" placeholder="User name"><br><br>
+        <input type="text" name="oldname" id="oldname" hidden="">
+        <input type="text" name="userid" id="userid" hidden="">
+
+
+
+
+        <button type="button" id="submitdataaa">Update User</button>
+
+    </fieldset>
+
+
+
+</div>
+
+
+
+</body>
+</html>
+</html>

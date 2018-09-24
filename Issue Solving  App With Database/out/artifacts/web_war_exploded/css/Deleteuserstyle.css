@@ -1,0 +1,91 @@
+body{
+    background-color:black;
+}
+
+
+#delete-user-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#delete-user-table td, #delete-user-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#delete-user-table tr td{
+    color: white;
+}
+#delete-user-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: tomato;
+    color:white;
+}
+
+
+.deleteuser{
+
+    background-color: #F1C40F;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.button {
+
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 70%;
+
+}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}

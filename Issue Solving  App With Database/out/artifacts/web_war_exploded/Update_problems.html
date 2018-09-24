@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Problems</title>
+    <link rel="stylesheet" type="text/css" href="css/updateProblemStyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/updateProblemscript.js"></script>
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+<body>
+
+
+<!-- Bread Crumbs -->
+<h1 style="margin-top: 5%;text-align: center;font-family: Cinzel;color: white;">Problems Information</h1>
+<ul class="breadcrumb"style="margin-top: 5%;margin-bottom: 2%;">
+    <li><a href="http://localhost:8080/">Home</a></li>
+    <li><a href="http://localhost:8080/Information-page.html">Information</a></li>
+    <li><a href="http://localhost:8080/Problems.html">Problems</a></li>
+    <li>Update Problems</li>
+</ul>
+
+
+
+
+
+<!-- Problems Data -->
+<table id="update-problem-table">
+    <thead>
+    <tr>
+        <th width="10">Problem Id</th>
+        <th width="10">Problem Name</th>
+        <th width="60">Problem Description</th>
+        <th width="10">Problem Handler</th>
+        <th width="10">Problem Status</th>
+        <th width="10">Update Problem</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+
+
+
+
+
+<!-- Update Problem Modal -->
+<div id="ex2" class="modal" style="height: auto;">
+    <fieldset>
+        Problem Name:<br>
+        <input type="type" name="problemid" id="problemid" hidden="">
+        <input type="text" name="problemname" id="problemname" placeholder="Problem name" disabled><br><br>
+        Problem Description:<br>
+        <textarea name="problemdescription" id="problemdescription" style="height: 200px;width: 400px;"></textarea><br><br>
+        Problem Handler:<br>
+        <input type="text" name="olduserid" id="oldmyselectt" hidden="">
+        <input type="text" name="oldusername" id="oldmyselectt1" disabled=""><br><br>
+        Update Problem Handler:<br>
+        <select id="mySelectt" style="width: 100px;"> </select><br><br>
+        Change Status:<br>
+        <select id="mySelect1" style="width: 100px;">
+            <option value="Entered">Entered</option>
+            <option value="Working">Working</option>
+            <option value="Finished">Finished</option>
+        </select><br><br>
+        <button type="button" id="submitupdatedproblemdata">Update Problem</button>
+    </fieldset>
+</div>
+
+
+</body>
+</html>

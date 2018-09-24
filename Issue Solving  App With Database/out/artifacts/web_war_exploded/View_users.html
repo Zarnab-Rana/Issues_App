@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Users</title>
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+<body>
+
+<!-- Bread Crumbs -->
+<h1 style="margin-top: 5%;text-align: center;font-family: Cinzel;color: white;">Users Information</h1>
+<ul class="breadcrumb"style="margin-top: 5%;margin-bottom: 2%;">
+    <li><a href="http://localhost:8080/">Home</a></li>
+    <li><a href="http://localhost:8080/Information-page.html">Information</a></li>
+    <li><a href="http://localhost:8080/Users.html">Users</a></li>
+    <li>View Users</li>
+</ul>
+
+
+
+
+
+<!-- Show Users -->
+<table id="table">
+    <button style="float: right;" id="adduser"><a href='#ex1' rel='modal:open' style='text-decoration:none;color:black;'>Add User</a></button><br><br>
+    <thead>
+    <tr>
+        <th>User Id</th>
+        <th>User Name</th>
+        <th>Problems</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+
+
+<!-- Add User Modal -->
+<div id="ex1" class="modal">
+    <fieldset>
+        User Name:<br>
+        <input type="text" name="fname" id="fname" placeholder="User name"><br><br>
+        <button type="button" id="submitdata">Add User</button>
+    </fieldset>
+</div>
+</body>
+</html>
